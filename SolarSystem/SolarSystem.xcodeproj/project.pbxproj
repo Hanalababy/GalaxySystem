@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17925EC41E52ECC9004D8CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EC31E52ECC9004D8CAD /* main.m */; };
+		17925EC71E52ECC9004D8CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EC61E52ECC9004D8CAD /* AppDelegate.m */; };
+		17925ECA1E52ECC9004D8CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EC91E52ECC9004D8CAD /* ViewController.m */; };
+		17925ECD1E52ECCA004D8CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17925ECB1E52ECCA004D8CAD /* Main.storyboard */; };
+		17925ECF1E52ECCA004D8CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17925ECE1E52ECCA004D8CAD /* Assets.xcassets */; };
+		17925ED21E52ECCA004D8CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17925ED01E52ECCA004D8CAD /* LaunchScreen.storyboard */; };
+		17925EDD1E52ECCA004D8CAD /* SolarSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EDC1E52ECCA004D8CAD /* SolarSystemTests.m */; };
+		17925EE81E52ECCA004D8CAD /* SolarSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EE71E52ECCA004D8CAD /* SolarSystemUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17925ED91E52ECCA004D8CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17925EB71E52ECC9004D8CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17925EBE1E52ECC9004D8CAD;
+			remoteInfo = SolarSystem;
+		};
+		17925EE41E52ECCA004D8CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17925EB71E52ECC9004D8CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17925EBE1E52ECC9004D8CAD;
+			remoteInfo = SolarSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17925EBF1E52ECC9004D8CAD /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17925EC31E52ECC9004D8CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17925EC51E52ECC9004D8CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17925EC61E52ECC9004D8CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17925EC81E52ECC9004D8CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17925EC91E52ECC9004D8CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17925ECC1E52ECCA004D8CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17925ECE1E52ECCA004D8CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17925ED11E52ECCA004D8CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17925ED31E52ECCA004D8CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17925ED81E52ECCA004D8CAD /* SolarSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17925EDC1E52ECCA004D8CAD /* SolarSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemTests.m; sourceTree = "<group>"; };
+		17925EDE1E52ECCA004D8CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17925EE31E52ECCA004D8CAD /* SolarSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17925EE71E52ECCA004D8CAD /* SolarSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemUITests.m; sourceTree = "<group>"; };
+		17925EE91E52ECCA004D8CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17925EBC1E52ECC9004D8CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17925ED51E52ECCA004D8CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17925EE01E52ECCA004D8CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17925EB61E52ECC9004D8CAD = {
+			isa = PBXGroup;
+			children = (
+				17925EC11E52ECC9004D8CAD /* SolarSystem */,
+				17925EDB1E52ECCA004D8CAD /* SolarSystemTests */,
+				17925EE61E52ECCA004D8CAD /* SolarSystemUITests */,
+				17925EC01E52ECC9004D8CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17925EC01E52ECC9004D8CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17925EBF1E52ECC9004D8CAD /* SolarSystem.app */,
+				17925ED81E52ECCA004D8CAD /* SolarSystemTests.xctest */,
+				17925EE31E52ECCA004D8CAD /* SolarSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17925EC11E52ECC9004D8CAD /* SolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				17925EC51E52ECC9004D8CAD /* AppDelegate.h */,
+				17925EC61E52ECC9004D8CAD /* AppDelegate.m */,
+				17925EC81E52ECC9004D8CAD /* ViewController.h */,
+				17925EC91E52ECC9004D8CAD /* ViewController.m */,
+				17925ECB1E52ECCA004D8CAD /* Main.storyboard */,
+				17925ECE1E52ECCA004D8CAD /* Assets.xcassets */,
+				17925ED01E52ECCA004D8CAD /* LaunchScreen.storyboard */,
+				17925ED31E52ECCA004D8CAD /* Info.plist */,
+				17925EC21E52ECC9004D8CAD /* Supporting Files */,
+			);
+			path = SolarSystem;
+			sourceTree = "<group>";
+		};
+		17925EC21E52ECC9004D8CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17925EC31E52ECC9004D8CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17925EDB1E52ECCA004D8CAD /* SolarSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				17925EDC1E52ECCA004D8CAD /* SolarSystemTests.m */,
+				17925EDE1E52ECCA004D8CAD /* Info.plist */,
+			);
+			path = SolarSystemTests;
+			sourceTree = "<group>";
+		};
+		17925EE61E52ECCA004D8CAD /* SolarSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17925EE71E52ECCA004D8CAD /* SolarSystemUITests.m */,
+				17925EE91E52ECCA004D8CAD /* Info.plist */,
+			);
+			path = SolarSystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17925EBE1E52ECC9004D8CAD /* SolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17925EEC1E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystem" */;
+			buildPhases = (
+				17925EBB1E52ECC9004D8CAD /* Sources */,
+				17925EBC1E52ECC9004D8CAD /* Frameworks */,
+				17925EBD1E52ECC9004D8CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSystem;
+			productName = SolarSystem;
+			productReference = 17925EBF1E52ECC9004D8CAD /* SolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17925ED71E52ECCA004D8CAD /* SolarSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17925EEF1E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystemTests" */;
+			buildPhases = (
+				17925ED41E52ECCA004D8CAD /* Sources */,
+				17925ED51E52ECCA004D8CAD /* Frameworks */,
+				17925ED61E52ECCA004D8CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17925EDA1E52ECCA004D8CAD /* PBXTargetDependency */,
+			);
+			name = SolarSystemTests;
+			productName = SolarSystemTests;
+			productReference = 17925ED81E52ECCA004D8CAD /* SolarSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17925EE21E52ECCA004D8CAD /* SolarSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17925EF21E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystemUITests" */;
+			buildPhases = (
+				17925EDF1E52ECCA004D8CAD /* Sources */,
+				17925EE01E52ECCA004D8CAD /* Frameworks */,
+				17925EE11E52ECCA004D8CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17925EE51E52ECCA004D8CAD /* PBXTargetDependency */,
+			);
+			name = SolarSystemUITests;
+			productName = SolarSystemUITests;
+			productReference = 17925EE31E52ECCA004D8CAD /* SolarSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17925EB71E52ECC9004D8CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tang Hana";
+				TargetAttributes = {
+					17925EBE1E52ECC9004D8CAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LE473NCF2R;
+						ProvisioningStyle = Automatic;
+					};
+					17925ED71E52ECCA004D8CAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LE473NCF2R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17925EBE1E52ECC9004D8CAD;
+					};
+					17925EE21E52ECCA004D8CAD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LE473NCF2R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17925EBE1E52ECC9004D8CAD;
+					};
+				};
+			};
+			buildConfigurationList = 17925EBA1E52ECC9004D8CAD /* Build configuration list for PBXProject "SolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17925EB61E52ECC9004D8CAD;
+			productRefGroup = 17925EC01E52ECC9004D8CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17925EBE1E52ECC9004D8CAD /* SolarSystem */,
+				17925ED71E52ECCA004D8CAD /* SolarSystemTests */,
+				17925EE21E52ECCA004D8CAD /* SolarSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17925EBD1E52ECC9004D8CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17925ED21E52ECCA004D8CAD /* LaunchScreen.storyboard in Resources */,
+				17925ECF1E52ECCA004D8CAD /* Assets.xcassets in Resources */,
+				17925ECD1E52ECCA004D8CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17925ED61E52ECCA004D8CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17925EE11E52ECCA004D8CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17925EBB1E52ECC9004D8CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17925ECA1E52ECC9004D8CAD /* ViewController.m in Sources */,
+				17925EC71E52ECC9004D8CAD /* AppDelegate.m in Sources */,
+				17925EC41E52ECC9004D8CAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17925ED41E52ECCA004D8CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17925EDD1E52ECCA004D8CAD /* SolarSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17925EDF1E52ECCA004D8CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17925EE81E52ECCA004D8CAD /* SolarSystemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17925EDA1E52ECCA004D8CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17925EBE1E52ECC9004D8CAD /* SolarSystem */;
+			targetProxy = 17925ED91E52ECCA004D8CAD /* PBXContainerItemProxy */;
+		};
+		17925EE51E52ECCA004D8CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17925EBE1E52ECC9004D8CAD /* SolarSystem */;
+			targetProxy = 17925EE41E52ECCA004D8CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17925ECB1E52ECCA004D8CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17925ECC1E52ECCA004D8CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17925ED01E52ECCA004D8CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17925ED11E52ECCA004D8CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17925EEA1E52ECCA004D8CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17925EEB1E52ECCA004D8CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17925EED1E52ECCA004D8CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LE473NCF2R;
+				INFOPLIST_FILE = SolarSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XYZ.SolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17925EEE1E52ECCA004D8CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LE473NCF2R;
+				INFOPLIST_FILE = SolarSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XYZ.SolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17925EF01E52ECCA004D8CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LE473NCF2R;
+				INFOPLIST_FILE = SolarSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XYZ.SolarSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+			};
+			name = Debug;
+		};
+		17925EF11E52ECCA004D8CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LE473NCF2R;
+				INFOPLIST_FILE = SolarSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XYZ.SolarSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+			};
+			name = Release;
+		};
+		17925EF31E52ECCA004D8CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LE473NCF2R;
+				INFOPLIST_FILE = SolarSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XYZ.SolarSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SolarSystem;
+			};
+			name = Debug;
+		};
+		17925EF41E52ECCA004D8CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LE473NCF2R;
+				INFOPLIST_FILE = SolarSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XYZ.SolarSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SolarSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17925EBA1E52ECC9004D8CAD /* Build configuration list for PBXProject "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17925EEA1E52ECCA004D8CAD /* Debug */,
+				17925EEB1E52ECCA004D8CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17925EEC1E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17925EED1E52ECCA004D8CAD /* Debug */,
+				17925EEE1E52ECCA004D8CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17925EEF1E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17925EF01E52ECCA004D8CAD /* Debug */,
+				17925EF11E52ECCA004D8CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17925EF21E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17925EF31E52ECCA004D8CAD /* Debug */,
+				17925EF41E52ECCA004D8CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17925EB71E52ECC9004D8CAD /* Project object */;
+}
