@@ -15,6 +15,7 @@
 		17925ED21E52ECCA004D8CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17925ED01E52ECCA004D8CAD /* LaunchScreen.storyboard */; };
 		17925EDD1E52ECCA004D8CAD /* SolarSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EDC1E52ECCA004D8CAD /* SolarSystemTests.m */; };
 		17925EE81E52ECCA004D8CAD /* SolarSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17925EE71E52ECCA004D8CAD /* SolarSystemUITests.m */; };
+		17CE22521E5ADC28009A60A3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CE22501E5ADC28009A60A3 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		17925EE31E52ECCA004D8CAD /* SolarSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17925EE71E52ECCA004D8CAD /* SolarSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemUITests.m; sourceTree = "<group>"; };
 		17925EE91E52ECCA004D8CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CE22501E5ADC28009A60A3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		17CE22511E5ADC28009A60A3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				17925EC51E52ECC9004D8CAD /* AppDelegate.h */,
 				17925EC61E52ECC9004D8CAD /* AppDelegate.m */,
+				17CE22501E5ADC28009A60A3 /* MBProgressHUD.m */,
+				17CE22511E5ADC28009A60A3 /* MBProgressHUD.h */,
 				17925EC81E52ECC9004D8CAD /* ViewController.h */,
 				17925EC91E52ECC9004D8CAD /* ViewController.m */,
 				17925ECB1E52ECCA004D8CAD /* Main.storyboard */,
@@ -279,6 +284,7 @@
 				17925ECA1E52ECC9004D8CAD /* ViewController.m in Sources */,
 				17925EC71E52ECC9004D8CAD /* AppDelegate.m in Sources */,
 				17925EC41E52ECC9004D8CAD /* main.m in Sources */,
+				17CE22521E5ADC28009A60A3 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +520,7 @@
 				17925EEE1E52ECCA004D8CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17925EEF1E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystemTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				17925EF11E52ECCA004D8CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17925EF21E52ECCA004D8CAD /* Build configuration list for PBXNativeTarget "SolarSystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				17925EF41E52ECCA004D8CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
